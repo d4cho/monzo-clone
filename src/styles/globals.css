@@ -62,3 +62,8 @@ h6 {
 }
 
 /* reset ends here */
+
+/* Color Themes */
+* {
+    --color-text-black: #112231;
+}

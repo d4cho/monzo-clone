@@ -1,0 +1,34 @@
+{
+    "cards": [
+        {
+            "imageUrl": "https://images.ctfassets.net/ro61k101ee59/62cnC3vwplYpOWY2cQHeQn/17874832857c6e873426de5288978de4/Current_Account.svg",
+            "title": "A UK current account",
+            "text": "We're a fully licensed UK bank, which means we're regulated by the Financial Conduct Authority and the Prudential Regulation Authority."
+        },
+        {
+            "imageUrl": "https://images.ctfassets.net/ro61k101ee59/2j4LWPBs7WSSYI8Brf7Aca/8eff1f64f397ab152fdedf312ef900f8/Protection.svg",
+            "title": "Protection for your money",
+            "text": "Your eligible deposits in Monzo are protected by The Financial Services Compensation Scheme (FSCS) up to a value of £85,000 per person."
+        },
+        {
+            "imageUrl": "https://images.ctfassets.net/ro61k101ee59/3y7DCkUtPbOakMYBjTfFsM/941a16c41f2c027719929861e7107c73/Way_to_Bank.png",
+            "title": "A new way to bank",
+            "text": "With features like instant spending notifications, simple ways to send money, Pots for separating it and monthly spending summaries."
+        },
+        {
+            "imageUrl": "https://images.ctfassets.net/ro61k101ee59/5aQKkYZ23LPZNfFrh96XdX/3ea3c19b2f5cd8360f46c04653c10074/Support.svg",
+            "title": "Friendly support",
+            "text": "Got a problem? We're here to help. Just message us in the app."
+        },
+        {
+            "imageUrl": "https://images.ctfassets.net/ro61k101ee59/4hWADisI6SscbtSrOKeK5c/44b97ae792221034760a4de7ff43e2f7/Loans.svg",
+            "title": "Loans and overdrafts",
+            "text": "We offer loans up to £25,000 and overdrafts up to £2,000. You can check if you're eligible without affecting your credit score."
+        },
+        {
+            "imageUrl": "https://images.ctfassets.net/ro61k101ee59/5hWx1MPRJvdqicOvAH7ktd/e2fadf46f35ba2c7cf1d84f00ac7d269/Interest.png",
+            "title": "Interest on your savings",
+            "text": "Earn interest on your savings by choosing an easy access or fixed term Pot. Your money with the savings provider is protected by the FSCS for amounts up to £85,000. Minimum £10 deposit to open."
+        }
+    ]
+}

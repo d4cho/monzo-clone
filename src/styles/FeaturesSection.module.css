@@ -1,0 +1,19 @@
+.container {
+    max-width: 86rem;
+    margin: 0 auto;
+    padding: 48px 32px;
+}
+
+.heading__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0 16px;
+}
+
+.heading {
+    font-size: 44px;
+    color: var(--color-text-black);
+    font-weight: bold;
+    margin-bottom: 24px;
+}
