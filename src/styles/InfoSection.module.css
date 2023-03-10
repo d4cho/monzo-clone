@@ -1,0 +1,38 @@
+.container {
+    max-width: 86rem;
+    margin: 0 auto;
+    padding: 64px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text__content {
+    flex: 1;
+    margin: 0 50px;
+    width: 90%;
+}
+
+.heading {
+    margin: 16px 0;
+    font-size: 28px;
+    color: var(--color-text-black);
+    font-weight: bold;
+}
+
+.body {
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: var(--color-text-black);
+}
+
+.button__wrapper {
+    margin: 64px 0 16px;
+}
+
+.image__wrapper {
+    flex: 1;
+    margin: 0 50px;
+}
