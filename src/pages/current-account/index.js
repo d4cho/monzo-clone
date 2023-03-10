@@ -1,3 +1,4 @@
+import CompareAccountsSection from '@/components/organisms/current-account-orgs/CompareAccountsSection';
 import CurrentAccountHero from '@/components/organisms/current-account-orgs/CurrentAccountHero';
 import FeaturesSection from '@/components/organisms/current-account-orgs/FeaturesSection';
 import InfoSection from '@/components/organisms/current-account-orgs/InfoSection';
@@ -58,15 +59,8 @@ const CurrentAccountPage = () => {
                     }
                 />
             </section>
-            <section className={styles.compare__plans__section}>
-                <div
-                    style={{
-                        maxWidth: '86rem',
-                        margin: '200px auto',
-                    }}
-                >
-                    <h1>Compare Plans Section</h1>
-                </div>
+            <section className={styles.compare__accounts__section}>
+                <CompareAccountsSection />
             </section>
             <section style={{ backgroundColor: '#f2f8f3' }}>
                 <InfoSection
