@@ -1,3 +1,4 @@
+import AppStoreSection from '@/components/organisms/current-account-orgs/AppStoreSection';
 import CompareAccountsSection from '@/components/organisms/current-account-orgs/CompareAccountsSection';
 import CurrentAccountHero from '@/components/organisms/current-account-orgs/CurrentAccountHero';
 import FeaturesSection from '@/components/organisms/current-account-orgs/FeaturesSection';
@@ -76,9 +77,7 @@ const CurrentAccountPage = () => {
                 />
             </section>
             <section>
-                <div style={{ maxWidth: '86rem', margin: '200px auto' }}>
-                    <h1>Sign Up Section</h1>
-                </div>
+                <AppStoreSection />
             </section>
         </main>
     );

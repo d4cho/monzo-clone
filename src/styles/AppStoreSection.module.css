@@ -1,0 +1,39 @@
+.container {
+    max-width: 86rem;
+    margin: 0 auto;
+    padding: 96px 64px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    width: 60%;
+}
+
+.header {
+    font-size: 28px;
+    color: var(--color-text-black);
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.text {
+    font-size: 20px;
+    color: var(--color-text-black);
+    margin-bottom: 16px;
+}
+
+.buttons_wrapper {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons_wrapper > button {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
