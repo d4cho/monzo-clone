@@ -26,7 +26,7 @@ const CurrentAccountPage = () => {
                     bodyText2={
                         'Monzo Premium is £15 per month • 6 month minimum • Must be aged 18-69 • Ts&Cs apply'
                     }
-                    buttonText={'Expore Monzo Premium'}
+                    buttonText={'Explore Monzo Premium'}
                     imgUrl={
                         '//images.ctfassets.net/ro61k101ee59/3hdGCad6Obr2PLmIF7OEMX/05750eec3af5bb5071311aa3e5d09f4e/Premium.png'
                     }
