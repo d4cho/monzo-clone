@@ -1,19 +1,21 @@
+import React, { useRef } from 'react';
 import AppStoreSection from '@/components/organisms/current-account-orgs/AppStoreSection';
 import CompareAccountsSection from '@/components/organisms/current-account-orgs/CompareAccountsSection';
 import CurrentAccountHero from '@/components/organisms/current-account-orgs/CurrentAccountHero';
 import FeaturesSection from '@/components/organisms/current-account-orgs/FeaturesSection';
 import InfoSection from '@/components/organisms/current-account-orgs/InfoSection';
-import React from 'react';
 import styles from '../../styles/CurrentAccountPage.module.css';
 
 const CurrentAccountPage = () => {
+    const compareSectionRef = useRef();
+
     return (
         <main className={styles.container}>
             <section style={{ backgroundColor: '#112231' }}>
                 <CurrentAccountHero />
             </section>
             <section>
-                <FeaturesSection />
+                <FeaturesSection compareSectionRef={compareSectionRef} />
             </section>
             <section>
                 <InfoSection
@@ -60,7 +62,10 @@ const CurrentAccountPage = () => {
                     }
                 />
             </section>
-            <section className={styles.compare__accounts__section}>
+            <section
+                ref={compareSectionRef}
+                className={styles.compare__accounts__section}
+            >
                 <CompareAccountsSection />
             </section>
             <section style={{ backgroundColor: '#f2f8f3' }}>
