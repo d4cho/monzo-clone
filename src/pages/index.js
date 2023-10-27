@@ -27,7 +27,7 @@ export default function Home() {
                             className={styles.link}
                             onClick={() => router.push('/current-account')}
                         >
-                            go to <b>Monzo Current Accounts</b> page test
+                            go to <b>Monzo Current Accounts</b> page
                         </li>
                     </ul>
                 </div>
